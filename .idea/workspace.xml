@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66270974-a942-4b2c-96df-71c81d2e130d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runThis.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.~lock.StatesNotebookFinal.txt#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StatesNotebookFinal.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MarkovModel.py" afterPath="$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/getTweets.py" afterPath="$PROJECT_DIR$/WhereStuffHappens/getTweets.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getTweets.py" afterPath="$PROJECT_DIR$/getTweets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runThis.py" afterPath="$PROJECT_DIR$/runThis.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +23,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MarkovModel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MarkovModel.py">
+        <entry file="file://$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -30,12 +33,12 @@
         </entry>
       </file>
       <file leaf-file-name="getTweets.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getTweets.py">
+        <entry file="file://$PROJECT_DIR$/WhereStuffHappens/getTweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +72,7 @@
         <option value="$PROJECT_DIR$/MarkovModel.py" />
         <option value="$PROJECT_DIR$/getTweets.py" />
         <option value="$PROJECT_DIR$/runThis.py" />
+        <option value="$PROJECT_DIR$/WhereStuffHappens/getTweets.py" />
       </list>
     </option>
   </component>
@@ -124,6 +128,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WhereStuffHappens" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.runThis">
     <configuration default="false" name="getTweets" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,7 +146,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TwitterBot" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getTweets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WhereStuffHappens/getTweets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -154,7 +163,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TwitterBot" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MarkovModel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -367,7 +376,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MarkovModel.py">
+    <entry file="file://$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -375,17 +384,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getTweets.py">
+    <entry file="file://$PROJECT_DIR$/WhereStuffHappens/getTweets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarkovModel.py">
+    <entry file="file://$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
@@ -393,7 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarkovModel.py">
+    <entry file="file://$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -402,7 +411,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DownloadedTweets.txt" />
-    <entry file="file://$PROJECT_DIR$/MarkovModel.py">
+    <entry file="file://$PROJECT_DIR$/WhereStuffHappens/MarkovModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -410,12 +419,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getTweets.py">
+    <entry file="file://$PROJECT_DIR$/WhereStuffHappens/getTweets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
