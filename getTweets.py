@@ -7,16 +7,18 @@ api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
                   access_token_secret="xgPt5BwXLziBBzMZb4fsYl8d7lZRP4iL5ainlvMhX3mug"
                   )
 
-statuses = api.GetUserTimeline(user_id=26257166, count=100)
-tweetsList = [s.text for s in statuses]
-tweets = ''.join(str(e) for e in tweetsList)
-file = open("DownloadedTweets.txt", "w")
-file.write(tweets)
-#do all markov stuff here, and make sure to save data
-outputToTweet = MarkovModel.create_markov_model()
-os.remove("DownloadedTweets.txt")
-file.close()
 
-#user = api.GetUser(user_id=26257166)
-status = api.PostUpdate(outputToTweet)
-print(status.text)
+def get_tweets():
+    screenname = input('Enter Twitter Screen name here: ')
+    statuses = api.GetUserTimeline(screen_name=screenname, count=300, exclude_replies=True)
+    tweetsList = [s.text for s in statuses]
+    tweets = ''.join(str(e) for e in tweetsList)
+    file = open("DownloadedTweets.txt", "w")
+    file.write(tweets)
+
+    outputToTweet = MarkovModel.create_markov_model()
+    os.remove("DownloadedTweets.txt")
+    file.close()
+
+    status = api.PostUpdate(outputToTweet)
+    print(status.text)
