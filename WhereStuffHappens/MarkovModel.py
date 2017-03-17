@@ -3,11 +3,13 @@ import markovify
 # Get raw text as string.
 
 
-def create_markov_model():
-    with open("DownloadedTweets.txt") as f:
-        text = f.read()
-
+def create_markov_model(tweetinput):
+    #with open("DownloadedTweets.txt") as f:
+    #    text = f.read()
+    text = tweetinput
     # Build the model.
-    text_model = markovify.Text(text)
-
-    return text_model.make_short_sentence(140)
+    text_model = markovify.NewlineText(text)
+    #print(text)
+    pred = text_model.make_short_sentence(140)
+    #print(pred)
+    return pred
