@@ -10,16 +10,14 @@ api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
                   )
 
 screenname = input('Enter Twitter Screen name here: ')
+
+
 tweetsinfolist = downloadTweets.get_all_tweets(screenname)
 arraytweets = np.array(tweetsinfolist)
-
 tweetsList = arraytweets[:, 2]
 tweets = ''.join(str(e) for e in tweetsList)
-file = open("DownloadedTweets.txt", "w")
-file.write(tweets)
-print(tweets)
-#tweetprediction = MarkovModel.create_markov_model()
-
-#print(tweetprediction)
-
-#status = api.PostUpdate(tweetprediction)
+prediction = MarkovModel.create_markov_model(tweets)
+print("You Tweeted: ")
+predictionToTweet = prediction.replace(" 'b' ", "")
+print(predictionToTweet)
+status = api.PostUpdate(predictionToTweet)
