@@ -2,6 +2,7 @@ from WhereStuffHappens import downloadTweets
 from WhereStuffHappens import MarkovModel
 import numpy as np
 import twitter
+import time
 
 api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
                   consumer_secret = "FgcO8CrxEYedFWUjn43aChntaspJV5FPbQamCI4Dp6R5ovQoT0",
