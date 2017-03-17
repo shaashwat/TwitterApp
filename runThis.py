@@ -1,11 +1,25 @@
 from WhereStuffHappens import downloadTweets
 from WhereStuffHappens import MarkovModel
 import numpy as np
-import os
-#getTweets.get_tweets()
+import twitter
+
+api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
+                  consumer_secret = "FgcO8CrxEYedFWUjn43aChntaspJV5FPbQamCI4Dp6R5ovQoT0",
+                  access_token_key="722173364396298240-UnOQ1uZiwAETRNy5Jh4V8vWGh2JazPC",
+                  access_token_secret="xgPt5BwXLziBBzMZb4fsYl8d7lZRP4iL5ainlvMhX3mug"
+                  )
+
 screenname = input('Enter Twitter Screen name here: ')
 tweetsinfolist = downloadTweets.get_all_tweets(screenname)
 arraytweets = np.array(tweetsinfolist)
 
-tweets = arraytweets[:, 2]
-tweetprediction = MarkovModel.create_markov_model(tweets)
+tweetsList = arraytweets[:, 2]
+tweets = ''.join(str(e) for e in tweetsList)
+file = open("DownloadedTweets.txt", "w")
+file.write(tweets)
+print(tweets)
+#tweetprediction = MarkovModel.create_markov_model()
+
+#print(tweetprediction)
+
+#status = api.PostUpdate(tweetprediction)
