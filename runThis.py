@@ -18,6 +18,6 @@ tweetsList = arraytweets[:, 2]
 tweets = ''.join(str(e) for e in tweetsList)
 prediction = MarkovModel.create_markov_model(tweets)
 print("You Tweeted: ")
-predictionToTweet = prediction.replace(" 'b' ", "")
+predictionToTweet = prediction.replace("""'b'""", "")
 print(predictionToTweet)
 status = api.PostUpdate(predictionToTweet)
