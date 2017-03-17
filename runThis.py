@@ -4,6 +4,7 @@ import numpy as np
 import twitter
 import time
 
+start = time.time()
 api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
                   consumer_secret = "FgcO8CrxEYedFWUjn43aChntaspJV5FPbQamCI4Dp6R5ovQoT0",
                   access_token_key="722173364396298240-UnOQ1uZiwAETRNy5Jh4V8vWGh2JazPC",
@@ -22,3 +23,7 @@ print("You Tweeted: ")
 predictionToTweet = prediction.replace("""'b'""", "")
 print(predictionToTweet)
 status = api.PostUpdate(predictionToTweet)
+
+end = time.time()
+elapsed = str(end - start)
+print("Time Elapsed: " + elapsed)
