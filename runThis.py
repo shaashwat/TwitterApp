@@ -1,29 +1,20 @@
-from WhereStuffHappens import downloadTweets
-from WhereStuffHappens import MarkovModel
-import numpy as np
-import twitter
-import time
+from WhereStuffHappens import test
 
-start = time.time()
-api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
-                  consumer_secret = "FgcO8CrxEYedFWUjn43aChntaspJV5FPbQamCI4Dp6R5ovQoT0",
-                  access_token_key="722173364396298240-UnOQ1uZiwAETRNy5Jh4V8vWGh2JazPC",
-                  access_token_secret="xgPt5BwXLziBBzMZb4fsYl8d7lZRP4iL5ainlvMhX3mug"
-                  )
+elapsedtimes = []
+testamounts = 10
+testnumber = 1
 
 screenname = input('Enter Twitter Screen name here: ')
 
+while testnumber <= testamounts:
+    time = test.one_test(screenname)
+    elapsedtimes.append(time)
+    testnumber += 1
 
-tweetsinfolist = downloadTweets.get_all_tweets(screenname)
-arraytweets = np.array(tweetsinfolist)
-tweetsList = arraytweets[:, 2]
-tweets = ''.join(str(e) for e in tweetsList)
-prediction = MarkovModel.create_markov_model(tweets)
-print("You Tweeted: ")
-predictionToTweet = prediction.replace("""'b'""", "")
-print(predictionToTweet)
-status = api.PostUpdate(predictionToTweet)
-
-end = time.time()
-elapsed = str(end - start)
-print("Time Elapsed: " + elapsed)
+averagetime = sum(elapsedtimes) / float(len(elapsedtimes))
+averagetimeString = str(averagetime)
+print(averagetimeString)
+print(elapsedtimes)
+file = open("averagetime.txt", "w")
+file.write(screenname+"\n")
+file.write(averagetimeString+"\n")
