@@ -25,4 +25,6 @@ def get_tweets(screenname):
     file.close()
 
     status = api.PostUpdate(outputToTweet)
-    print(status.text)
+    return (status.text)
+
+
