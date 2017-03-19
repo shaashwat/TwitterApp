@@ -3,8 +3,11 @@
     <head>
         <title>ImmiTweet</title>
     <body>
-<form method="POST" action="">
-Twitter Handle: <input type="text" name="handle" value=""><br>
+<form method="post" action="">
+    <h1>Twitter Handle:</h1>
+     {% csrf_token %}
+
+    <input type="text" name="handle" value=""><br>
 <input type="submit" value="Submit">
 </form>
     </body>
