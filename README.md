@@ -11,3 +11,5 @@
 
 Web App in development!
 Django 1.9.1 being used. 
+To see App:
+Go on Django Branch, where Django App data is stored under "App" folder. 
