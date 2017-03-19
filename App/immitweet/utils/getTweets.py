@@ -1,3 +1,5 @@
+#Purpose of the app is to apply a markov model to someone's tweets, and output a tweet that someone would say. Hence the name "immitweet", the app immitates a person's twitter feed.
+
 import os
 
 import twitter
