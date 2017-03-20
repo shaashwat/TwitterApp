@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ImmiTweet</title>
+    <body>
+<form method="POST" action="">
+    <h1>Twitter Handle:</h1>
+     {% csrf_token %}
+     {{ form.as_p }}
+    <input type="text" name="handle" value=""><br>
+<input type="submit" value="Submit">
+</form>
+    </body>
+</html>
