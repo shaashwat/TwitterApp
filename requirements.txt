@@ -6,3 +6,4 @@ whitenoise==2.0.6
 python-twitter
 markovify
 tweepy
+numpy
