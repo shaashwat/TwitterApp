@@ -1,14 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:text-align="http://www.w3.org/1999/xhtml">
     <head>
         <title>ImmiTweet</title>
-    <body>
-<form method="POST" action="">
-    <h1>Twitter Handle:</h1>
+    <body style = background-color:#AEEEEE >
+    <div style="background-color:#343d46;color:white;padding:20px;">
+    <h1>ImmiTweet: A Web App to Clone People. (Based off their tweets.)</h1>
+        <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/contact/">Contact</a></li>
+
+</ul>
+
+    </div>
+    <div style="background-color:white;color:black;padding:20px;text-align:center">
+    <h3>What this App does:</h3>
+        <p>When people die, they are often remembered for their legacies and their impact on society. But what if all you have is
+        someone's Twitter feed? Pleace their handle in the box below, and watch as they are magically replicated. This app
+        take's the information from a person's Twitter and constrcts a Tweet that that person would typically say.</p>
+    </div>
+<form method="POST" action="" style= text-align:center>
+    <h2 style = text-align:center;>Instructions:</h2>
+    <p style= text-align:center>Place a twitter handle in the box below and hit "Get Tweet".</p>
      {% csrf_token %}
      {{ form.as_p }}
     <input type="text" name="handle" value=""><br>
-<input type="submit" value="Submit">
+<input type="submit" value="Get Tweet">
 </form>
     </body>
 </html>
