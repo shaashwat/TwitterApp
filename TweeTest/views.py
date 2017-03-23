@@ -11,7 +11,7 @@ from utils import runThis
 def view_home(request):
     if request.method == "POST":
         screenname = request.POST.get("handle", None)
-        result = runThis.getTweets(screenname).decode('utf-8')
+        result = runThis.getTweets(screenname)
         page = loader.get_template("result.html")
 
         return render(request,'result.html',{"result":result, "screenname":screenname})
