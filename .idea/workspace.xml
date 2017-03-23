@@ -2,105 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66270974-a942-4b2c-96df-71c81d2e130d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/INSTALLER" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/Django-1.10.6.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/conf/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/conf/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/am/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/am/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/dsb/LC_MESSAGES/djangojs.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/dsb/LC_MESSAGES/djangojs.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/hsb/LC_MESSAGES/djangojs.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/locale/hsb/LC_MESSAGES/djangojs.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/static/admin/js/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/static/admin/js/change_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/static/admin/js/popup_response.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/static/admin/js/prepopulate_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admindocs/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admindocs/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admindocs/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/admindocs/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/auth/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/auth/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/auth/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/auth/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/auth/migrations/0008_alter_user_username_max_length.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/auth/validators.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/contenttypes/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/contenttypes/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/contenttypes/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/contenttypes/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/flatpages/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/flatpages/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/flatpages/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/flatpages/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/gis/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/gis/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/gis/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/gis/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/humanize/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/humanize/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/humanize/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/humanize/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/hu/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/hu/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/ka/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/ka/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/ne/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/ne/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/sl/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/sl/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/zh_Hant/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/locale/zh_Hant/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/postgres/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/redirects/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/redirects/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/redirects/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/redirects/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sessions/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sessions/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sessions/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sessions/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sites/locale/dsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sites/locale/dsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sites/locale/hsb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sites/locale/hsb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sites/locale/hy/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/contrib/sites/locale/hy/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/core/checks/compatibility/django_1_10.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/core/checks/database.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/core/checks/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/core/handlers/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/db/migrations/serializer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/db/models/functions/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/db/models/functions/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/db/models/functions/datetime.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/test/selenium.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/urls/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/urls/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/urls/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/urls/resolvers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/env/lib/python3.4/site-packages/django/urls/utils.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/immitweet/TweeTest/templates/result.html" afterPath="$PROJECT_DIR$/App/immitweet/TweeTest/templates/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/immitweet/TweeTest/views.py" afterPath="$PROJECT_DIR$/App/immitweet/TweeTest/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/immitweet/immitweet/settings.py" afterPath="$PROJECT_DIR$/App/immitweet/immitweet/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,8 +24,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -127,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/immitweet/immitweet/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -141,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/App/immitweet/utils/runThis.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -159,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/templates/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+            <state relative-caret-position="414">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
@@ -242,16 +158,16 @@
         <option value="$PROJECT_DIR$/App/immitweet/TweeTest/models.py" />
         <option value="$PROJECT_DIR$/App/immitweet/TweeTest/forms.py" />
         <option value="$PROJECT_DIR$/App/immitweet/utils/getTweets.py" />
-        <option value="$PROJECT_DIR$/App/immitweet/utils/runThis.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/App/immitweet/TweeTest/templates/contact.html" />
         <option value="$PROJECT_DIR$/App/immitweet/TweeTest/templates/about.html" />
         <option value="$PROJECT_DIR$/App/immitweet/TweeTest/templates/index.html" />
         <option value="$PROJECT_DIR$/App/immitweet/TweeTest/urls.py" />
-        <option value="$PROJECT_DIR$/App/immitweet/TweeTest/views.py" />
         <option value="/AngularJS Fragment (result.html:459).js" />
-        <option value="$PROJECT_DIR$/App/immitweet/TweeTest/templates/result.html" />
         <option value="$PROJECT_DIR$/App/immitweet/immitweet/settings.py" />
+        <option value="$PROJECT_DIR$/App/immitweet/utils/runThis.py" />
+        <option value="$PROJECT_DIR$/App/immitweet/TweeTest/views.py" />
+        <option value="$PROJECT_DIR$/App/immitweet/TweeTest/templates/result.html" />
       </list>
     </option>
   </component>
@@ -333,28 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immitweet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="immitweet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,20 +638,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -996,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1033,6 +906,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/immitweet/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/immitweet/immitweet/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/immitweet/utils/runThis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1046,50 +970,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/templates/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="414">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/immitweet/utils/runThis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/immitweet/TweeTest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/immitweet/immitweet/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
