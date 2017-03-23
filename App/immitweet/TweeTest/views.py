@@ -11,11 +11,8 @@ def view_home(request):
     if request.method == "POST":
         screenname = request.POST.get("handle", None)
         result = runThis.getTweets(screenname)
-        return HttpResponse(result, content_type="text/plain")
+        return render(request, 'result.html,', {'result',result})
     return render(request, 'index.html', {})
-
-def view_tweet(request):
-    return render(request,'result.html')
 
 class AboutPageView(TemplateView):
     template_name = "about.html"
@@ -23,6 +20,8 @@ class AboutPageView(TemplateView):
 class ContactPageView(TemplateView):
     template_name = "contact.html"
 
+class ResultPageView(TemplateView):
+    template_name = "result.html"
 
 
 # Create your views here.
