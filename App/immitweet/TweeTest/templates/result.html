@@ -4,7 +4,51 @@
     <meta charset="UTF-8">
     <title>Result</title>
 </head>
+<style>
+body {
+    background: url("http://i.imgur.com/Bm0QP6v.png");
+    background-size: 900px 600px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+    textarea { border: none
+    }
+</style>
+
+<div
+    style="
+    top:200px;
+    left: 53px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;">
+
+    <textarea rows="14" cols="95">
+{{ result}}
+
+</textarea>
+
+    </div>
+
+<div
+    style="
+    top:75px;
+    left: 230px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;">
+
+    <textarea rows="3" cols="25">
+
+    {{ screenname }}
+
+    </textarea>
+
+    </div>
+
+
 <body>
-<h1>You tweeted: {{ result }}</h1>
+
 </body>
 </html>
