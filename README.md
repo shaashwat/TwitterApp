@@ -12,12 +12,4 @@
 
 Web App in Django 1.9.1:
 
-1) cd into App directory from TwitterApp
-2) run source env/bin/activate in terminal
-3) run pip-install markovify in terminal (while in the vitrualenv "env")
-4) run pip-install python-twitter in terminal
-5) run pip-install tweepy in terminal
-6) After you have installed these libraries, cd into immitweet directory
-7) run python manage.py runserver in terminal
-8) Go to your browser and go to 127.0.0.1:8000
-9) Viola! The web app offers a UI for the runThis script.
+https://salty-wildwood-65286.herokuapp.com/ 
