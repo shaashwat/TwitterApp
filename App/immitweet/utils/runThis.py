@@ -19,7 +19,5 @@ def getTweets(screenname):
     tweets = ''.join(str(e) for e in tweetsList)
     prediction = MarkovModel.create_markov_model(tweets)
     predictionToTweet = prediction.replace("""'b'""", "")
-
-    return predictionToTweet
-
     status = api.PostUpdate(predictionToTweet)
+    return predictionToTweet
