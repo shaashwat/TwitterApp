@@ -9,7 +9,7 @@ api = twitter.Api(consumer_key="iFM83lSHaysa7GTHbGRYOUHbH",
                   access_token_key="722173364396298240-UnOQ1uZiwAETRNy5Jh4V8vWGh2JazPC",
                   access_token_secret="xgPt5BwXLziBBzMZb4fsYl8d7lZRP4iL5ainlvMhX3mug"
                   )
-
+predictionToTweet = ""
 
 def getTweets(screenname):
 
@@ -18,8 +18,8 @@ def getTweets(screenname):
     tweetsList = arraytweets[:, 2]
     tweets = ''.join(str(e) for e in tweetsList)
     prediction = MarkovModel.create_markov_model(tweets)
-    global predictionToTweet = prediction.replace("""'b'""", "")
+    global predictionToTweet
+    predictionToTweet = prediction.replace("""'b'""", "")
     return predictionToTweet
 def postTweet():
   status = api.PostUpdate(predictionToTweet)
-  
