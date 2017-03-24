@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.template import Context, loader
 from django.utils import timezone
+from django.template import RequestContext
 import datetime
 
 from utils import runThis
@@ -21,6 +22,11 @@ def view_home(request):
 
     return render(request, 'index.html', {})
 
+def handler500(request):
+    response = render(request,'500.html',{},context_instance=RequestContext(request))
+    response.status_code = 500
+    return response
+
 class AboutPageView(TemplateView):
     template_name = "about.html"
 
@@ -29,6 +35,8 @@ class ContactPageView(TemplateView):
 
 class ResultPageView(TemplateView):
     template_name = "result.html"
+
+
 
 
 # Create your views here.
