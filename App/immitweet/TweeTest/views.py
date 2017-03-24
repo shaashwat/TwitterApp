@@ -11,6 +11,8 @@ from utils import runThis
 # Create your views here.
 
 # Current view to display the index html site. If it recognizes a POST request, it will display the result as plain text.
+
+
 def view_home(request):
     if request.method == "POST":
         screenname = request.POST.get("handle", None)
@@ -22,21 +24,24 @@ def view_home(request):
 
     return render(request, 'index.html', {})
 
+
 def handler500(request):
     response = render(request,'500.html',{},context_instance=RequestContext(request))
     response.status_code = 500
     return response
 
+
+
 class AboutPageView(TemplateView):
     template_name = "about.html"
+
+
 
 class ContactPageView(TemplateView):
     template_name = "contact.html"
 
-class ResultPageView(TemplateView):
-    template_name = "result.html"
 
-
-
-
-# Create your views here.
+def view_tweet(request):
+    if request.method == "POST":
+        runThis.postTweet()
+    return render(request,'result.html',{})
