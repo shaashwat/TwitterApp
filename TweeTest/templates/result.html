@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<style>
+body {
+    background: url("http://i.imgur.com/Bm0QP6v.png");
+    background-size: 900px 600px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+    textarea {
+        border: none;
+        resize: none;
+        font-size: 12px;
+        overflow: hidden;
+    }
+</style>
+
+<div
+    style="
+    top:200px;
+    left: 53px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;">
+
+    <textarea rows="14" cols="95" readonly >
+
+{{ result}}
+
+</textarea>
+
+    </div>
+
+<div
+    style="
+    top:75px;
+    left: 230px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;">
+
+    <textarea rows="2" cols="25" readonly>
+
+    {{ screenname }}
+
+    </textarea>
+
+    </div>
+
+<div
+    style="
+    top:75px;
+    left: 630px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;">
+
+    <textarea rows="2" cols="25" readonly>
+
+    {{thetime}}
+
+    </textarea>
+
+    </div>
+
+
+<p style="text-align: right">
+<a class="twitter-timeline" data-width="300" data-height="800" data-theme="light" href="https://twitter.com/internetofroas1">Tweets by internetofroas1</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</p>
+<div
+    style="
+    top: 650px;
+    left: 355px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;
+">
+    <form>
+
+        <input type=button value="Generate New Tweet" onClick="history.go()" style="height: 100px; width: 200px; font-size: 20px; color: #609ab6"></form>
+</div>
+
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:text-align="http://www.w3.org/1999/xhtml"
+      xmlns:float="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>About</title>
+    <body style = background-color:#AEEEEE >
+    <div style="background-color:#343d46;color:white;padding:20px;">
+    <h1>About the App:</h1>
+        <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/contact/">Contact</a></li>
+
+</ul>
+
+    </div>
+    <div style="background-color:white;color:black;padding:20px;text-align:center">
+    <h3>How it works:</h3>
+        <p>The app works by first downloading all of someone's tweets. This is done using both python-twitter and tweepy Python
+        libraries. Next, the app applies a markov model to the person's tweets, structuring their tweets into one combined model.
+        This model is fluid, meaning that if you put in the same handle twice, you will get different results. This tweet is then
+        printed to the website through an HTTP Response, and posted to a remote twitter (@internetofroas1).
+        </div>
+
+        <div style="background-color:white;color:black;padding:20px;>
+
+    <p style="float: left;"><img src="https://pbs.twimg.com/profile_images/790214718610956289/-lVaGQZU.jpg" height="200px" width="200px" border="1px"></p>
+    <h3 style="text-align: center">About the creators: </h3>
+    <p>Davis Keene is a programmer who specializes in HTML, Java and Python. He picked up Django and Heroku in order to
+    create the frontend of the app.</p>
+
+</div>
+
+    </body>
+</html>
