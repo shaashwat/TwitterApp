@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import TemplateView
 from django.template import Context, loader
+from django.utils import timezone
+import datetime
 
 from utils import runThis
 
@@ -13,8 +15,9 @@ def view_home(request):
         screenname = request.POST.get("handle", None)
         result = runThis.getTweets(screenname)
         page = loader.get_template("result.html")
+        thetime = timezone.now()
 
-        return render(request,'result.html',{"result":result, "screenname":screenname})
+        return render(request,'result.html',{"result":result, "screenname":screenname, "thetime":thetime})
 
     return render(request, 'index.html', {})
 
